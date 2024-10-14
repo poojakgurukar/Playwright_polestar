@@ -7,6 +7,6 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true
     },
-    "include": ["src/**/*.ts", "playwright.config.ts"]
+    "include": ["src/**/*.ts", "playwright.config.ts", "polestar.test.ts"]
   }
   

@@ -10,10 +10,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "playwright": "^1.48.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.0",
+    "@types/dotenv": "^6.1.1",
     "@types/node": "^22.7.5",
     "@types/supertest": "^6.0.2",
     "supertest": "^7.0.0",
