@@ -68,7 +68,7 @@ async isFirstVisibleElementFromList(selector: string): Promise<boolean> {
 
   // Method to check if logo is visible
   async isLogoVisible(): Promise<boolean> {
-   
+   await this.page.waitForSelector("xpath =//img[contains(@alt,'Polestar')]");
      const items =await this.page.locator("xpath =//img[contains(@alt,'Polestar')]");
 
      return items.nth(0).isVisible();    
