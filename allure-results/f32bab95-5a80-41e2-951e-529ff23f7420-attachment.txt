@@ -1,0 +1,1 @@
+{ job: [32m'Senior Developer'[39m, updatedAt: [32m'2024-10-20T15:53:11.588Z'[39m }

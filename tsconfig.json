@@ -1,12 +1,15 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "commonjs",
+  "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
       "strict": true,
       "esModuleInterop": true,
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true
-    },
-    "include": ["src/**/*.ts", "playwright.config.ts", "polestar.test.ts"]
-  }
-  
+  },
+  "include": [
+     
+      "src/**/*",           // Include all TypeScript files in src
+      "src/tests/**/*"    ,     // Include all TypeScript files in tests
+       "global.d.ts" ]
+}

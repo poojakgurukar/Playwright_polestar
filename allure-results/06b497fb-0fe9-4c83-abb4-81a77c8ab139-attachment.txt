@@ -1,0 +1,7 @@
+{
+  id: [33m13[39m,
+  email: [32m'xyz@gmail.com'[39m,
+  name: [32m'John Doe'[39m,
+  job: [32m'Software Developer'[39m,
+  updatedAt: [32m'2024-10-20T15:52:04.556Z'[39m
+}

@@ -1,0 +1,302 @@
+{
+  "config": {
+    "configFile": "D:\\Paywright_polestar\\Playwright_polestar\\playwright.config.ts",
+    "rootDir": "D:/Paywright_polestar/Playwright_polestar",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "D:\\Paywright_polestar\\Playwright_polestar\\global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "D:\\Paywright_polestar\\Playwright_polestar\\node_modules\\experimental-allure-playwright\\dist\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/Paywright_polestar/Playwright_polestar/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "D:/Paywright_polestar/Playwright_polestar",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api.test.ts",
+      "file": "api.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "API Testing",
+          "file": "api.test.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "@smoke: GET /api/users",
+              "ok": true,
+              "tags": [
+                "smoke:"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 270,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-20T16:30:20.597Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c04f6c958c2c3dd17d9d-00554a7c73b094113854",
+              "file": "api.test.ts",
+              "line": 7,
+              "column": 7
+            },
+            {
+              "title": "@smoke: POST /api/users",
+              "ok": true,
+              "tags": [
+                "smoke:"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 475,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-20T16:30:20.890Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c04f6c958c2c3dd17d9d-c17a47b93d60337c7bad",
+              "file": "api.test.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "Update user with PUT",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-20T16:30:21.380Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "c04f6c958c2c3dd17d9d-8cba16d88d56db66b172",
+              "file": "api.test.ts",
+              "line": 37,
+              "column": 8
+            },
+            {
+              "title": "@smoke: Update user with PUT",
+              "ok": true,
+              "tags": [
+                "smoke:"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 443,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  id: \u001b[33m13\u001b[39m,\n  email: \u001b[32m'xyz@gmail.com'\u001b[39m,\n  name: \u001b[32m'John Doe'\u001b[39m,\n  job: \u001b[32m'Software Developer'\u001b[39m,\n  updatedAt: \u001b[32m'2024-10-20T16:30:21.298Z'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-20T16:30:21.381Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c04f6c958c2c3dd17d9d-7d9ce4c0a0a79ab20ad2",
+              "file": "api.test.ts",
+              "line": 57,
+              "column": 5
+            },
+            {
+              "title": "@smoke: Update user with PATCH",
+              "ok": true,
+              "tags": [
+                "smoke:"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 378,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{ job: \u001b[32m'Senior Developer'\u001b[39m, updatedAt: \u001b[32m'2024-10-20T16:30:21.727Z'\u001b[39m }\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-20T16:30:21.835Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c04f6c958c2c3dd17d9d-a3d160eefda4e95729eb",
+              "file": "api.test.ts",
+              "line": 82,
+              "column": 5
+            },
+            {
+              "title": "@smoke: Delete user with DELETE",
+              "ok": true,
+              "tags": [
+                "smoke:"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 458,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-20T16:30:22.238Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c04f6c958c2c3dd17d9d-c0dc8123f8a89c5b374f",
+              "file": "api.test.ts",
+              "line": 116,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-10-20T16:30:17.015Z",
+    "duration": 5728.188,
+    "expected": 5,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

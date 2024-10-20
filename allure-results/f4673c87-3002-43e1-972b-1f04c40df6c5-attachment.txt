@@ -1,0 +1,54 @@
+{
+  page: [33m1[39m,
+  per_page: [33m6[39m,
+  total: [33m12[39m,
+  total_pages: [33m2[39m,
+  data: [
+    {
+      id: [33m1[39m,
+      email: [32m'george.bluth@reqres.in'[39m,
+      first_name: [32m'George'[39m,
+      last_name: [32m'Bluth'[39m,
+      avatar: [32m'https://reqres.in/img/faces/1-image.jpg'[39m
+    },
+    {
+      id: [33m2[39m,
+      email: [32m'janet.weaver@reqres.in'[39m,
+      first_name: [32m'Janet'[39m,
+      last_name: [32m'Weaver'[39m,
+      avatar: [32m'https://reqres.in/img/faces/2-image.jpg'[39m
+    },
+    {
+      id: [33m3[39m,
+      email: [32m'emma.wong@reqres.in'[39m,
+      first_name: [32m'Emma'[39m,
+      last_name: [32m'Wong'[39m,
+      avatar: [32m'https://reqres.in/img/faces/3-image.jpg'[39m
+    },
+    {
+      id: [33m4[39m,
+      email: [32m'eve.holt@reqres.in'[39m,
+      first_name: [32m'Eve'[39m,
+      last_name: [32m'Holt'[39m,
+      avatar: [32m'https://reqres.in/img/faces/4-image.jpg'[39m
+    },
+    {
+      id: [33m5[39m,
+      email: [32m'charles.morris@reqres.in'[39m,
+      first_name: [32m'Charles'[39m,
+      last_name: [32m'Morris'[39m,
+      avatar: [32m'https://reqres.in/img/faces/5-image.jpg'[39m
+    },
+    {
+      id: [33m6[39m,
+      email: [32m'tracey.ramos@reqres.in'[39m,
+      first_name: [32m'Tracey'[39m,
+      last_name: [32m'Ramos'[39m,
+      avatar: [32m'https://reqres.in/img/faces/6-image.jpg'[39m
+    }
+  ],
+  support: {
+    url: [32m'https://reqres.in/#support-heading'[39m,
+    text: [32m'To keep ReqRes free, contributions towards server costs are appreciated!'[39m
+  }
+}

@@ -1,0 +1,5 @@
+{
+  name: [32m'John Doe'[39m,
+  job: [32m'Software Developer'[39m,
+  updatedAt: [32m'2024-10-20T14:39:50.934Z'[39m
+}
