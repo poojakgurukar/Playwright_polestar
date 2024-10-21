@@ -13,7 +13,7 @@ test.describe('Home Page Tests', () => {
         
     });
 
-    test('@smoke: User can navigate to car models', async ({page}) => {
+    test('@smoke: Explore car features videos, navigating from home page', async ({page}) => {
         await homePage.navigate();
         await page.waitForSelector('button:has-text("Accept All")');
         await page.click('button:has-text("Accept All")');

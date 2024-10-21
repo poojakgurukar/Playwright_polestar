@@ -50,8 +50,6 @@ test('@smoke: Update user with PUT', async () => {
   expect(response.status).toBe(200);
   const responseBody = response.body;
 
-  console.log(responseBody); // Log actual response for debugging
-
   // Adjusting the expectations to match the actual response structure
   expect(responseBody).toEqual({
       ...updatedUserData, // Spread updatedUserData to include all properties
@@ -81,8 +79,7 @@ test('@smoke: Update user with PATCH', async () => {
       throw new Error(`Failed to parse JSON: ${error.message}`);
   }
   
-  console.log(responseBody); // Log actual response for debugging
-
+  
   // Adjusting the expectations to match the actual response structure
   expect(responseBody).toHaveProperty('job', updatedUserData.job); 
     expect(responseBody).toHaveProperty('updatedAt'); // Check for updatedAt field

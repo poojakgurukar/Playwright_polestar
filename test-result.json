@@ -54,17 +54,101 @@
     "shard": null,
     "updateSnapshots": "missing",
     "version": "1.48.0",
-    "workers": 2,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "api.test.ts",
-      "file": "api.test.ts",
+      "title": "smoke.test.ts",
+      "file": "smoke.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
+        {
+          "title": "Home Page Tests",
+          "file": "src/tests/home.test.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "@smoke: Explore car features videos, navigating from home page",
+              "ok": true,
+              "tags": [
+                "smoke:"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 17521,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-21T16:00:55.140Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a239ced0e52b6754d8b-45401d2f12eab5fe3cb2",
+              "file": "src/tests/home.test.ts",
+              "line": 16,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Contact Page Tests",
+          "file": "src/tests/fillNewsletterRegisterForm.test.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "@smoke: Get NewsLetter for Registered User",
+              "ok": true,
+              "tags": [
+                "smoke:"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 6252,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-21T16:01:13.009Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a239ced0e52b6754d8b-be9ab12b2f9e8ecc4bb0",
+              "file": "src/tests/fillNewsletterRegisterForm.test.ts",
+              "line": 19,
+              "column": 9
+            }
+          ]
+        },
         {
           "title": "API Testing",
           "file": "api.test.ts",
@@ -88,19 +172,19 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 270,
+                      "duration": 327,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-20T16:30:20.597Z",
+                      "startTime": "2024-10-21T16:01:19.289Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "c04f6c958c2c3dd17d9d-00554a7c73b094113854",
+              "id": "4a239ced0e52b6754d8b-ea54acfcb20f0fe3dea7",
               "file": "api.test.ts",
               "line": 7,
               "column": 7
@@ -122,58 +206,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 475,
+                      "duration": 437,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-20T16:30:20.890Z",
+                      "startTime": "2024-10-21T16:01:19.627Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "c04f6c958c2c3dd17d9d-c17a47b93d60337c7bad",
+              "id": "4a239ced0e52b6754d8b-9f48faec72f90b1e1a78",
               "file": "api.test.ts",
               "line": 23,
               "column": 7
-            },
-            {
-              "title": "Update user with PUT",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [
-                    {
-                      "type": "skip"
-                    }
-                  ],
-                  "expectedStatus": "skipped",
-                  "projectId": "Chromium",
-                  "projectName": "Chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "skipped",
-                      "duration": 0,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-10-20T16:30:21.380Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "skipped"
-                }
-              ],
-              "id": "c04f6c958c2c3dd17d9d-8cba16d88d56db66b172",
-              "file": "api.test.ts",
-              "line": 37,
-              "column": 8
             },
             {
               "title": "@smoke: Update user with PUT",
@@ -192,25 +240,21 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 443,
+                      "duration": 470,
                       "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  id: \u001b[33m13\u001b[39m,\n  email: \u001b[32m'xyz@gmail.com'\u001b[39m,\n  name: \u001b[32m'John Doe'\u001b[39m,\n  job: \u001b[32m'Software Developer'\u001b[39m,\n  updatedAt: \u001b[32m'2024-10-20T16:30:21.298Z'\u001b[39m\n}\n"
-                        }
-                      ],
+                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-20T16:30:21.381Z",
+                      "startTime": "2024-10-21T16:01:20.072Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "c04f6c958c2c3dd17d9d-7d9ce4c0a0a79ab20ad2",
+              "id": "4a239ced0e52b6754d8b-ef90118f04b53e9d0312",
               "file": "api.test.ts",
-              "line": 57,
+              "line": 37,
               "column": 5
             },
             {
@@ -230,25 +274,21 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 378,
+                      "duration": 451,
                       "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{ job: \u001b[32m'Senior Developer'\u001b[39m, updatedAt: \u001b[32m'2024-10-20T16:30:21.727Z'\u001b[39m }\n"
-                        }
-                      ],
+                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-20T16:30:21.835Z",
+                      "startTime": "2024-10-21T16:01:20.556Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "c04f6c958c2c3dd17d9d-a3d160eefda4e95729eb",
+              "id": "4a239ced0e52b6754d8b-c18c17955d2cb8e5d6b6",
               "file": "api.test.ts",
-              "line": 82,
+              "line": 60,
               "column": 5
             },
             {
@@ -268,21 +308,21 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 458,
+                      "duration": 562,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-20T16:30:22.238Z",
+                      "startTime": "2024-10-21T16:01:21.017Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "c04f6c958c2c3dd17d9d-c0dc8123f8a89c5b374f",
+              "id": "4a239ced0e52b6754d8b-fb440847694fd45ac676",
               "file": "api.test.ts",
-              "line": 116,
+              "line": 93,
               "column": 5
             }
           ]
@@ -292,10 +332,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-10-20T16:30:17.015Z",
-    "duration": 5728.188,
-    "expected": 5,
-    "skipped": 1,
+    "startTime": "2024-10-21T16:00:52.306Z",
+    "duration": 29461.476000000002,
+    "expected": 7,
+    "skipped": 0,
     "unexpected": 0,
     "flaky": 0
   }

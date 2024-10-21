@@ -27,7 +27,7 @@ export default defineConfig({
   ['experimental-allure-playwright']],
   timeout: 30000,
   use: {
-    headless: false, // Set to true for headless mode
+    headless: true, // Set to true for headless mode
     viewport: { width: 1280, height: 720 },
     ignoreHTTPSErrors: true,
     browserName: 'chromium',

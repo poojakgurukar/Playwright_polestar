@@ -6,7 +6,7 @@ let context: BrowserContext;
 
 async function globalSetup(config: FullConfig) {
     // Launch the browser once
-    browser = await chromium.launch({ headless: false });
+    browser = await chromium.launch({ headless: true });
     context = await browser.newContext();
 
     // Store the browser and context in the global object
